@@ -4,6 +4,7 @@ my_dic = {
     "gender":"male",
     "height":70,
     "weight":80,
+    "touple":("apple","banana")
 }
 # print(my_dic)
 # print(my_dic['name'])
@@ -18,8 +19,8 @@ my_dic = {
 # my_dic["age"] = 200
 # print(my_dic)
 
-my_dic["test"] = "test"
-print(my_dic)
+
+print(my_dic["touple"][1])
 
 
 
